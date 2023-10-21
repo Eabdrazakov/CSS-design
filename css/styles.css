@@ -1,0 +1,21 @@
+@media screen and (max-width:400px) and (min-width: 300px) {
+    body {
+        background-color: black;
+        color: aliceblue;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text {
+        width: 300px;
+        float: center;
+        padding: 20px;
+        color: darkblue;
+    }
+}
